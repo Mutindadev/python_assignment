@@ -11,6 +11,9 @@ This is where I document my journey of learning Python step by step through week
 - [Week 3: Functions & Discounts](#-week-3-functions--discounts)
 - [Week 4: File Handling](#-week-4-file-handling)
 - [Week 5: Object-Oriented Programming (OOP)](#-week-5-object-oriented-programming-oop)
+-  [Week 6: Ubuntu-Inspired Image Fetcher](#week-6-ubuntu-inspired-image-fetcher)
+- [Troubleshooting Guide](#troubleshooting-guide)
+
 
 ---
 
@@ -67,16 +70,93 @@ I practiced with:
 
 ### 🎭 Activity 2: Polymorphism Challenge
 - Built a *Vehicle base class* with subclasses (Car, Plane, Boat).  
-- Each subclass defined its own move() method.  
+- Each subclass defined its own move() method.
+  
+
+- ## Week 6: Ubuntu-Inspired Image Fetcher
+- A program inspired by the Ubuntu philosophy:  
+  *"I am because we are."*  
+
+### Features:
+- Prompts user for an image URL.  
+- Creates a folder called **Fetched_Images** if it doesn’t exist.  
+- Downloads the image using the **requests** library.  
+- Extracts a filename from the URL (or generates one).  
+- Saves the image in binary mode.  
+- Handles errors gracefully with user-friendly messages.  
+
+## Troubleshooting Guide ⚡
+
+While building **Week 6**, I encountered some issues. Here’s how to fix them:
+
+### 1. `Import "requests" could not be resolved from source`
+
+**Cause:**
+VS Code was running with the wrong Python interpreter.
+
+**Fix:**
+
+* Open Command Palette → `Ctrl+Shift+P`
+* Select **Python: Select Interpreter**
+* Choose the interpreter where `requests` is installed (e.g., Python 3.11).
+* Restart VS Code.
+
+---
+
+### 2. Installed `request` instead of `requests`
+
+**Cause:**
+The correct library is `requests` (plural). Installing `request` will not work.
+
+**Fix:**
+Run:
+
+bash
+pip uninstall request
+pip install requests
+
+
+---
+
+### 3. Multiple Python Environments
+
+Sometimes `pip` installs libraries in a different environment than the one VS Code is using.
+
+**Fix:**
+Check Python path:
+
+bash
+which python        # Mac/Linux
+where python        # Windows
+
+
+Check where `requests` is installed:
+
+bash
+pip show requests
+
+
+Make sure both match. If not, install requests into the correct interpreter:
+
+bash
+python -m pip install requests
+
+
 
 ---
 
 ✅ This repository now covers:  
-- Week 1 → Basic calculator & list operations  
-- Week 2 → List operations  
-- Week 3 → Functions & discounts  
-- Week 4 → File handling  
-- Week 5 → OOP (classes, inheritance, encapsulation, polymorphism)  
+-Week 1 → Python Basics: variables, data types, operators, input/output
+
+-Week 2 → Control Flow & Loops: if-else, for/while loops, break & continue
+
+-Week 3 → Functions & Modules: defining functions, arguments, return values, importing modules
+
+-Week 4 → Lists & Dictionaries: list operations, slicing, comprehension, dictionary operations
+
+-Week 5 → Object-Oriented Programming: classes, objects, methods, inheritance
+
+-Week 6 → File Handling & Web Requests: downloading files, creating directories, error handling, saving files
 
 ---
 
