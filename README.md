@@ -5,6 +5,15 @@ This is where I document my journey of learning Python step by step through week
 
 ---
 
+## 📑 Table of Contents
+- [Week 1: Basic Calculator & List Operations](#-week-1-basic-calculator--list-operations)
+- [Week 2: More on Lists](#-week-2-more-on-lists)
+- [Week 3: Functions & Discounts](#-week-3-functions--discounts)
+- [Week 4: File Handling](#-week-4-file-handling)
+- [Week 5: Object-Oriented Programming (OOP)](#-week-5-object-oriented-programming-oop)
+
+---
+
 ## 🚀 What’s Inside  
 
 ### 🧮 Week 1 – Basic Calculator  
@@ -41,6 +50,39 @@ I practiced with:
 👉 Now I can create, read, and update text files smoothly.  
 
 ---
+
+---
+
+## 📘 Week 5: Object-Oriented Programming (OOP)
+
+### 🏗 Assignment 1: Design Your Own Class
+- Created a *Smartphone class* with attributes and methods.  
+- Used *constructors* to initialize each object.  
+- Demonstrated *encapsulation* by making price private with getters and setters.  
+- Added an *inheritance layer* through a GamingSmartphone class.  
+- Showcased *polymorphism* by overriding methods.
+
+---
+---
+
+### 🎭 Activity 2: Polymorphism Challenge
+- Built a *Vehicle base class* with subclasses (Car, Plane, Boat).  
+- Each subclass defined its own move() method.  
+
+---
+
+✅ This repository now covers:  
+- Week 1 → Basic calculator & list operations  
+- Week 2 → List operations  
+- Week 3 → Functions & discounts  
+- Week 4 → File handling  
+- Week 5 → OOP (classes, inheritance, encapsulation, polymorphism)  
+
+---
+
+🚀 More assignments coming soon — stay tuned!
+
+
 
 ## 🔮 What’s Next  
 This repository will keep growing as I take on new assignments. Some upcoming topics include:  
