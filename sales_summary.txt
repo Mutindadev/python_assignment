@@ -1,0 +1,3 @@
+Total Revenue: ksh105,000
+Best-Selling Product: Mouse (25 units sold)
+Highest Sales Day: 2025-03-01 (ksh53,000)
