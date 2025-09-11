@@ -12,6 +12,7 @@ This is where I document my journey of learning Python step by step through week
 - [Week 4: File Handling](#-week-4-file-handling)
 - [Week 5: Object-Oriented Programming (OOP)](#-week-5-object-oriented-programming-oop)
 -  [Week 6: Ubuntu-Inspired Image Fetcher](#week-6-ubuntu-inspired-image-fetcher)
+-   [Week 7: Data Analysis with Pandas & Matplotlib](#week-7-data-analysis-with-pandas--matplotlib)
 - [Troubleshooting Guide](#troubleshooting-guide)
 
 
@@ -141,6 +142,36 @@ Make sure both match. If not, install requests into the correct interpreter:
 bash
 python -m pip install requests
 
+## Week 7: Data Analysis with Pandas & Matplotlib
+- Introduction to **pandas** (DataFrames & Series).  
+- Data manipulation: filtering, sorting, aggregating.  
+- Summary statistics (`mean()`, `sum()`, `max()`).  
+- Visualization with **matplotlib** (line plot, bar chart, histogram, scatter plot).  
+- Challenge: Analyze `sales_data.csv` → save insights to `sales_summary.txt`.  
+- Bonus: Plot sales trends.
+1.Create a CSV file called sales_data.csv with columns:
+Date (YYYY-MM-DD)
+Product
+Quantity Sold
+Revenue (ksh)
+2.Write a Python script week7_data_analysis.py to:
+Load the CSV file using pandas.
+Calculate the total revenue.
+Find the best-selling product.
+Identify the day with the highest sales.
+Save results to a file: sales_summary.txt.
+Print insights clearly in the terminal.
+
+🛠️ Common Errors & Fixes
+
+Error: Import "pandas" could not be resolved
+✅ Fix: Make sure you installed the library using pip install pandas.
+
+Error: Import "matplotlib" could not be resolved
+✅ Fix: Run pip install matplotlib.
+
+Wrong Python Interpreter: Sometimes VS Code highlights imports with a yellow line.
+✅ Fix: Press Ctrl + Shift + P → Python: Select Interpreter → choose Python 3.11 (or your installed version).
 
 
 ---
