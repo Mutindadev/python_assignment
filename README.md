@@ -6,16 +6,15 @@ This is where I document my journey of learning Python step by step through week
 ---
 
 ## 📑 Table of Contents
-- [Week 1: Basic Calculator & List Operations](#-week-1-basic-calculator--list-operations)
-- [Week 2: More on Lists](#-week-2-more-on-lists)
-- [Week 3: Functions & Discounts](#-week-3-functions--discounts)
-- [Week 4: File Handling](#-week-4-file-handling)
-- [Week 5: Object-Oriented Programming (OOP)](#-week-5-object-oriented-programming-oop)
--  [Week 6: Ubuntu-Inspired Image Fetcher](#week-6-ubuntu-inspired-image-fetcher)
--   [Week 7: Data Analysis with Pandas & Matplotlib](#week-7-data-analysis-with-pandas--matplotlib)
--   [Weeek 8:-work] 
+- [Week 1: Basic Calculator & List Operations](#week-1-basic-calculator--list-operations)
+- [Week 2: More on Lists](#week-2-more-on-lists)
+- [Week 3: Functions & Discounts](#week-3-functions--discounts)
+- [Week 4: File Handling](#week-4-file-handling)
+- [Week 5: Object-Oriented Programming (OOP)](#week-5-object-oriented-programming-oop)
+- [Week 6: Ubuntu-Inspired Image Fetcher](#week-6-ubuntu-inspired-image-fetcher)
+- [Week 7: Data Analysis with Pandas & Matplotlib](#week-7-data-analysis-with-pandas--matplotlib)
+- [Week 8: Streamlit App Development](#week-8-streamlit-app-development)
 - [Troubleshooting Guide](#troubleshooting-guide)
-
 
 ---
 
@@ -210,19 +209,9 @@ Created a small sample `metadata.csv` dataset for testing COVID-19 research data
 
 -Week 6 → File Handling & Web Requests: downloading files, creating directories, error handling, saving files
 
----
+Week 7 → Data Analysis with Pandas & Matplotlib: dataframes, filtering, aggregating, summary statistics, visualizations, plotting trends
 
-🚀 More assignments coming soon — stay tuned!
-
-
-
-## 🔮 What’s Next  
-This repository will keep growing as I take on new assignments. Some upcoming topics include:  
-- Dictionaries & loops  
-- Error handling  
-- Object-Oriented Programming  
-- Modules & packages  
-- Mini projects  
+Week 8 → Streamlit App Development: interactive web app, displaying visualizations, widgets (sliders, dropdowns), exploring COVID-19 research
 
 ---
 
