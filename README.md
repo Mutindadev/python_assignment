@@ -13,6 +13,7 @@ This is where I document my journey of learning Python step by step through week
 - [Week 5: Object-Oriented Programming (OOP)](#-week-5-object-oriented-programming-oop)
 -  [Week 6: Ubuntu-Inspired Image Fetcher](#week-6-ubuntu-inspired-image-fetcher)
 -   [Week 7: Data Analysis with Pandas & Matplotlib](#week-7-data-analysis-with-pandas--matplotlib)
+-   [Weeek 8:-work] 
 - [Troubleshooting Guide](#troubleshooting-guide)
 
 
@@ -174,6 +175,26 @@ Wrong Python Interpreter: Sometimes VS Code highlights imports with a yellow lin
 ✅ Fix: Press Ctrl + Shift + P → Python: Select Interpreter → choose Python 3.11 (or your installed version).
 
 
+#week 8 work 
+Created a small sample `metadata.csv` dataset for testing COVID-19 research data (5 rows).  
+- Developed `analysis.py`:
+  - Cleaned and prepared the dataset (`publish_time` → datetime, `year`, `abstract_word_count`)
+  - Plotted:
+    - Publications by Year
+    - Top Journals
+    - Word Cloud of paper titles
+- Built `app.py` using **Streamlit**:
+  - Interactive year range slider to filter data
+  - Display filtered data in table
+  - Bar chart of publications by year
+  - Word cloud of paper titles
+- Verified scripts run successfully on the small dataset to prevent memory issues.  
+- Next steps: Test with larger dataset, add more visualizations, finalize documentation and code comments.
+
+*Next Steps:**
+- Test with larger `metadata.csv` if needed
+- Add additional visualizations (e.g., source distribution, frequent words in abstracts)
+- Finalize documentation and comments in the code
 ---
 
 ✅ This repository now covers:  
