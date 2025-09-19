@@ -173,22 +173,16 @@ Error: Import "matplotlib" could not be resolved
 Wrong Python Interpreter: Sometimes VS Code highlights imports with a yellow line.
 ✅ Fix: Press Ctrl + Shift + P → Python: Select Interpreter → choose Python 3.11 (or your installed version).
 
+---
 
-#week 8 work 
-Created a small sample `metadata.csv` dataset for testing COVID-19 research data (5 rows).  
-- Developed `analysis.py`:
-  - Cleaned and prepared the dataset (`publish_time` → datetime, `year`, `abstract_word_count`)
-  - Plotted:
-    - Publications by Year
-    - Top Journals
-    - Word Cloud of paper titles
-- Built `app.py` using **Streamlit**:
-  - Interactive year range slider to filter data
-  - Display filtered data in table
-  - Bar chart of publications by year
-  - Word cloud of paper titles
-- Verified scripts run successfully on the small dataset to prevent memory issues.  
-- Next steps: Test with larger dataset, add more visualizations, finalize documentation and code comments.
+## Week 8: Streamlit App Development
+- Built an interactive web application using **Streamlit**.
+- Displayed insights and visualizations from the COVID-19 research dataset (`metadata.csv`).
+- Implemented widgets like sliders and dropdowns for dynamic data filtering.
+- Explored publication trends, top journals, and frequent words in paper titles.
+- Created a simple **COVID-19 research data explorer** to present findings clearly and interactively.
+
+---
 
 *Next Steps:**
 - Test with larger `metadata.csv` if needed
